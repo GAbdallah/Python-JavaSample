@@ -92,7 +92,7 @@ class CommuincateScript(object):
             if  not server_error:
                 #self.__compress_doc(doc)
                 self.__delete_doc(doc)
-                msg = 'The files have been sent to tracktrace with success '+info_message
+                msg = 'The files have been sent to the API with success '+info_message
                 log_data['msg'] = msg
                 self.__log_info(log_data)
         
